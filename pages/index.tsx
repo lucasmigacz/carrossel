@@ -26,6 +26,7 @@ export default function Home() {
           loop={true}
           modules={[EffectCoverflow, FreeMode]}
           effect="coverflow"
+          coverflowEffect={{ depth: 30, modifier: 1, rotate: 30 }}
           freeMode={{ enabled: true }}
         >
           <SwiperSlide>
